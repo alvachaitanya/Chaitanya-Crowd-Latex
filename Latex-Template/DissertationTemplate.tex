@@ -1,0 +1,47 @@
+\documentclass[12pt,a4paper]{report}
+\input{tex/header}
+
+%-----------------------------------------------------------
+\graphicspath{{images/}}
+%-----------------------------------------------------------
+\begin{document} 
+\input{tex/title-page}
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+
+\input{tex/abstract}
+\input{tex/attestation}
+\input{tex/acknowledgement}
+
+\begingroup
+	\singlespacing
+	\hypersetup{linkcolor=black}
+	\tableofcontents
+	\listoffigures
+\endgroup
+\newpage
+\pagenumbering{arabic}
+
+%% Chapters
+\input{tex/introduction}
+\input{tex/background}
+\input{tex/sota}
+\input{tex/methodology}
+\input{tex/result}
+\input{tex/conclusion}
+
+% --------- Reference section -------------
+
+\bibliographystyle{IEEEtran}
+\bibliography{reference}
+
+
+%----------- APPENDIX ---------------------
+\input{tex/appendix-1}
+\input{tex/user-guide}
+\input{tex/installation-guide}
+
+\end{document}
+%% That's all. End of the LaTex document. %%

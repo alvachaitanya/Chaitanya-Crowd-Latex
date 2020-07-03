@@ -1,0 +1,111 @@
+\usepackage{multirow,enumitem,cite,epsfig,epstopdf}
+\usepackage{amssymb,graphics,graphicx,algorithm,xcolor}%,algorithmic}
+\usepackage{times,color,booktabs,changepage}%,subcaption}
+\usepackage[export]{adjustbox}
+\usepackage[cmex10]{amsmath}
+\usepackage[english]{babel}
+\usepackage[colorlinks=true,allcolors=black,urlcolor=blue]{hyperref}
+
+\usepackage[left=3cm, right=3cm]{geometry}
+\usepackage{listings} % for source code
+\lstset{basicstyle=\small\ttfamily,showstringspaces=false,keywordstyle=\bfseries\color{blue!70!black}}
+
+\usepackage[T1]{fontenc}
+\usepackage[default]{opensans} 
+
+
+\def\Fig#1{Fig.~\ref{fig:#1}}
+\def\Eq#1{Eq.~(\ref{eq:#1})}
+\def\Tab#1{Table~\ref{tab:#1}}
+\def\Sec#1{Section~\ref{sec:#1}}
+\def\Prop#1{Proposition~\ref{prop:#1}}
+
+% A comment in a draft (shouldn't appear in the final version).
+\newcommand{\comment}[2]{\( \clubsuit\){\bf #1: }{\rm \sf #2}\(\clubsuit\)}
+% Comment this out in the draft
+%\newcommand{\comment}[2]{}
+\newcommand{\dbcomment}[1]{\comment{DB}{#1}}
+\newcommand{\rscomment}[2]{\comment{RS}{#1}}
+\newcommand{\pgcomment}[2]{\comment{PG}{#1}}
+%---------------------------------
+
+\def\eg{\emph{e.g.}, }
+\def\Eg{\emph{E.g.}, }
+\def\etal{\emph{et al.}}
+\def\ie{\emph{i.e.}, }
+\def\noi{\noindent}
+
+%-----------------------
+% Change the way IEEE write table caption
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\@makecaption}
+  {\scshape}
+  {}
+  {}
+  {}
+\makeatletter
+\patchcmd{\@makecaption}
+  {\\}
+  {.\ }
+  {}
+  {}
+\makeatother
+%\def\tablename{Table}
+%-------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% with 12 point font, single line spacing, single-sided pages
+\setlength{\parskip}{0.5\baselineskip}
+\setlength{\textheight}{23cm}
+\setlength{\footskip}{1.5cm}
+\usepackage[singlespacing]{setspace} % don't use onehalfspacing
+%\usepackage{titlesec}
+%\titlespacing*{\chapter}{0pt}{-50pt}{20pt}
+%\titleformat{\chapter}[hang]{\normalfont\huge\bfseries}{\thechapter}{1em}{} 
+
+%\newcommand{\unnumberedchapter}[1]{\chapter*{#1}\addcontentsline{toc}{chapter}{#1}}
+
+%-----------------------------------------------------------
+% Chapter style definition
+%-----------------------------------------------------------
+\usepackage[explicit]{titlesec}
+\usepackage{lmodern}
+
+\newlength\chapnumb
+\setlength\chapnumb{4cm}
+
+\titleformat{\chapter}[block]
+{\normalfont\sffamily}{}{0pt}
+{\parbox[b]{\chapnumb}{%
+		\fontsize{120}{110}\selectfont\thechapter}%
+	\parbox[b]{\dimexpr\textwidth-\chapnumb\relax}{%
+		\raggedleft%
+		\hfill{\bfseries{\LARGE#1}}\\
+		\rule{\dimexpr\textwidth-\chapnumb\relax}{0.4pt}}}
+	
+\titleformat{name=\chapter,numberless}[block]
+{\normalfont\sffamily}{}{0pt}
+{\parbox[b]{\textwidth}{%
+		\bfseries{\huge#1}\\
+		\rule{\dimexpr\textwidth\relax}{0.4pt}}
+ \parbox[b]{\chapnumb}{%
+ 	\mbox{}}%
+}%
+
+\titlespacing{name=\chapter,numberless}{0em}{0em}{-1.0em} % 
+%{left}{before}{after}[right]
+
+\newcommand{\cmd}[1]{\texttt{\textbackslash{}#1}}
+\newcommand{\unnumberedchapter}[1]{\chapter*{#1}\addcontentsline{toc}{chapter}{#1}}
+%-----------------------------------------------------------
+
+
+
+\let\tempit\itemize \let\tempeit\enditemize 
+\renewenvironment{itemize}{\vspace{-1em}\tempit\addtolength{\itemsep}{-0.5\baselineskip}}{\tempeit}
+% Changes itemize spacing
+\let\tempen\enumerate \let\tempeen\endenumerate 
+\renewenvironment{enumerate}{\vspace{-1em}\tempen\addtolength{\itemsep}{-0.5\baselineskip}}{\tempeen}
+% Changes enumerate spacing
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
