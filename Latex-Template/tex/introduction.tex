@@ -13,15 +13,23 @@ traffic jams and stampede.
 
 As mentioned in~\cite{sreenu2019intelligent}, the main objectives of automated surveillance video 
 analysis are continuous monitoring, reduction in laborious human task, object identification or action 
-recognition and crowd analysis. This paper talks about detecting different types of crowd motion and abnormal behaviour tracking using CNN. Understanding the following characteristics of the video helps to choose the best approach for the motion analysis.
+recognition and crowd analysis. This paper talks about detecting different types of crowd motion and 
+abnormal behaviour tracking using CNN. Most of the study on analysing the crowd is done on the following areas.
 \begin{itemize}
-	\item Crowd type based on density.
+	\item Counting the crowd.
+	\item Type of the crowd based on its density.
 	\item Detecting the motion in the frame.
 	\item Identifying the types of motion.
 	\item Categorising into normal or abnormal behaviour.
 \end{itemize}
-\subsection{Crowd Type based on density}
-It is important to categorise the type of the crowd to understand the dynamics of the motion. As described by Moore, Brian~\cite{moore2011visual}, the crowd can be visualised in hydrodynamic point of view. They view the crowd to be in 3 types, microscopic, mesoscopic and macroscopic based on the density. 
+
+\subsection{Counting the crowd.}
+
+\subsection{Type of the crowd based on its density}
+It is important to categorise the type of the crowd to understand the dynamics of the motion. Moore~\cite{moore2011visual} suggests, the crowd can be treated as particles in fluid dynamics and the crowd is of 3 types, microscopic, mesoscopic and macroscopic based on the density. Microscopic view of crowd through a hydrodynamic lens implies understanding the flow of every individual in crowd and this is specific to limited number of individuals in the frame. Mesoscopic view implies more number of people in a frame. Macroscopic view implies the frame filled with people. The personal and interaction forces in each case are different which in turn drive the motion of the crowd. To further explain, the interaction force is very less in a microscopic view but very high in macroscopic view.
+\subsection{Detecting the motion in the frame}
+Detecting the motion in the frame can be done either by training a model which involves feeding the motion images into a CNN architecture or without training by just tracking every point in the frame using optical flow. Santoro~\cite{santoro2010crowd} did optical flow computation with the help of Shi-Tomasi Corner Detection and Lucas–Kanade algorithm to detect the motion of the crowd. Where as Wei~\cite{wei2020very} trained 2 deep vgg16 cnn architecture models to detect the motion of the crowd.
+
 
 \section{Aim and Objectives} \label{sec:objectives}
 Define the scope and objectives of your project.

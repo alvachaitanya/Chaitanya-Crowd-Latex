@@ -26,6 +26,22 @@ G.~Sreenu and M.~S. Durai, ``Intelligent video surveillance: a review through
   deep learning techniques for crowd analysis,'' \emph{Journal of Big Data},
   vol.~6, no.~1, p.~48, 2019.
 
+\bibitem{moore2011visual}
+B.~E. Moore, S.~Ali, R.~Mehran, and M.~Shah, ``Visual crowd surveillance
+  through a hydrodynamics lens,'' \emph{Communications of the ACM}, vol.~54,
+  no.~12, pp. 64--73, 2011.
+
+\bibitem{santoro2010crowd}
+F.~Santoro, S.~Pedro, Z.-H. Tan, and T.~B. Moeslund, ``Crowd analysis by using
+  optical flow and density based clustering,'' in \emph{2010 18th European
+  Signal Processing Conference}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE,
+  2010, pp. 269--273.
+
+\bibitem{wei2020very}
+X.~Wei, J.~Du, Z.~Xue, M.~Liang, Y.~Geng, X.~Xu, and J.~Lee, ``A very deep
+  two-stream network for crowd type recognition,'' \emph{Neurocomputing}, vol.
+  396, pp. 522--533, 2020.
+
 \bibitem{BhoFen17}
 D.~Bhowmik and T.~Feng, ``The multimedia blockchain: A distributed and
   tamper-proof media transaction framework,'' in \emph{IEEE International
