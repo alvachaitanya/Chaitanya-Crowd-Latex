@@ -26,6 +26,21 @@ G.~Sreenu and M.~S. Durai, ``Intelligent video surveillance: a review through
   deep learning techniques for crowd analysis,'' \emph{Journal of Big Data},
   vol.~6, no.~1, p.~48, 2019.
 
+\bibitem{tripathi2019convolutional}
+G.~Tripathi, K.~Singh, and D.~K. Vishwakarma, ``Convolutional neural networks
+  for crowd behaviour analysis: a survey,'' \emph{The Visual Computer},
+  vol.~35, no.~5, pp. 753--776, 2019.
+
+\bibitem{8462345}
+D.~{Bhowmik} and A.~{Wallace}, ``Statistical t+2d subband modelling for crowd
+  counting,'' in \emph{2018 IEEE International Conference on Acoustics, Speech
+  and Signal Processing (ICASSP)}, 2018, pp. 1533--1537.
+
+\bibitem{idrees2013multi}
+H.~Idrees, I.~Saleemi, C.~Seibert, and M.~Shah, ``Multi-source multi-scale
+  counting in extremely dense crowd images,'' in \emph{Proceedings of the IEEE
+  conference on computer vision and pattern recognition}, 2013, pp. 2547--2554.
+
 \bibitem{moore2011visual}
 B.~E. Moore, S.~Ali, R.~Mehran, and M.~Shah, ``Visual crowd surveillance
   through a hydrodynamics lens,'' \emph{Communications of the ACM}, vol.~54,
