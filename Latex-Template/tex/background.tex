@@ -1,2 +1,24 @@
 \chapter{Background}
-Write any technical background related to your work. 
+Computer vision evolved from many complex theories, algorithms and models. This paper mainly talks 
+about the video surveillance. This section helps to understand the required technical details confined to this area. 
+\section{Optical Flow}
+Optical flow can possibly be one of the most important concepts of computer vision. Optical flow is used 
+to find the pattern in the movement of the objects from one frame to another. This is widely used in the 
+fields like robotics, image processing, motion detection, object segmentation etc. Videos are the series of 
+images. These images can be independent from one another. But, in the real time, a video captures 
+consecutive change in the pixels in certain duration of time. There are many algorithms which discuss 
+the relation between these pixels in two different frames. ~\cite{galvin1998recovering} discuss various 
+types of optical flow algorithms and evaluates them. This paper concludes that Lucas Kanade Algorithm 
+is best among the other 8 optical flow algorithms.
+
+Optical flow diagrams are usually denoted by the vectors pointing the change from frame F1 to frame F2. But in real time, it is easy to concentrate on only those points which provide more insights. For example movement of the hand from F1 to F2 changes hundreds of pixels and can be redundant. Rather it is simple and more appropriate to see the flow of only those pixels at the corner of the hand. Thus, Corner detection algorithms are used to reduce the complexity and improve the performance of the algorithms.
+\subsection{Corner Detection}
+Shi Tomasi Corner detection algorithm is similar to Harris Corner Detector. it is widely used in detecting the interest points and feature descriptors. Interest points can be corners edges and blobs and are invariant to rotation, translation, intensity and scale changes. Only difference in harris corner detection and Shi Tomasi corner detection is the computed R value (used to detect the corner).
+\subsection{Lucas Kanade Algorithm}
+In the conclusion of ~\cite{galvin1998recovering}, we can see that Lucas Kanade Algorithm is the one of the best algorithm to detect the optical flow. The assumption of Lucas Kanade algorithm is the flow of the local neighbourhood of the pixel is constant. It combines all the information from the surrounding pixels and often solves the inherent ambiguity of the optical flow equation. It is also considered to be less sensitive to the noise. 
+\section{Convolutional Neural networks}
+
+\subsection{Convolution Networks}
+\subsection{Pooling}
+\subsection{Fully Connected Layers}
+\subsection{Notable CNN Architectures}
