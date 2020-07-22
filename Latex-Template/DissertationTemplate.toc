@@ -15,27 +15,28 @@
 \contentsline {section}{\numberline {2.1}Optical Flow}{4}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Corner Detection}{4}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Lucas Kanade Algorithm}{5}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}Convolutional Neural networks}{5}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Convolution Networks}{5}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Pooling}{5}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Fully Connected Layers}{5}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Notable CNN Architectures}{5}{subsection.2.2.4}%
-\contentsline {chapter}{\numberline {3}State-of-the-Art}{6}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Technical Chapters (change this to something appropriate)}{7}{chapter.4}%
-\contentsline {section}{\numberline {4.1}First Section}{7}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}First Subsection}{7}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Second Subsection}{7}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Bulleted and Numbered Lists}{8}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Figures and Captions}{8}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Source Code}{10}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Results and Discussions}{11}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Dataset}{11}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Experimental setup}{11}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Results}{11}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Discussions}{12}{section.5.4}%
-\contentsline {chapter}{\numberline {6}Conclusions \& Future Work}{13}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Conclusions}{13}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Future Work}{13}{section.6.2}%
-\contentsline {chapter}{Appendix 1}{15}{chapter*.7}%
-\contentsline {chapter}{Appendix 2 -- User guide}{16}{chapter*.8}%
-\contentsline {chapter}{Appendix 3 -- Installation guide}{17}{chapter*.9}%
+\contentsline {section}{\numberline {2.2}Density based clustering}{5}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Convolutional Neural networks}{5}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Convolution Networks (ConvNets)}{6}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Pooling}{6}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Fully Connected Layers}{6}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Notable CNN Architectures}{6}{subsection.2.3.4}%
+\contentsline {chapter}{\numberline {3}State-of-the-Art}{7}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Technical Chapters (change this to something appropriate)}{8}{chapter.4}%
+\contentsline {section}{\numberline {4.1}First Section}{8}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}First Subsection}{8}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Second Subsection}{8}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Bulleted and Numbered Lists}{9}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Figures and Captions}{9}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Source Code}{11}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Results and Discussions}{12}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Dataset}{12}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Experimental setup}{12}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Results}{12}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Discussions}{13}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Conclusions \& Future Work}{14}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Conclusions}{14}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Future Work}{14}{section.6.2}%
+\contentsline {chapter}{Appendix 1}{16}{chapter*.7}%
+\contentsline {chapter}{Appendix 2 -- User guide}{17}{chapter*.8}%
+\contentsline {chapter}{Appendix 3 -- Installation guide}{18}{chapter*.9}%

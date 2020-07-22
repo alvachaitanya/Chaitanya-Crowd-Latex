@@ -13,12 +13,32 @@ is best among the other 8 optical flow algorithms.
 
 Optical flow diagrams are usually denoted by the vectors pointing the change from frame F1 to frame F2. But in real time, it is easy to concentrate on only those points which provide more insights. For example movement of the hand from F1 to F2 changes hundreds of pixels and can be redundant. Rather it is simple and more appropriate to see the flow of only those pixels at the corner of the hand. Thus, Corner detection algorithms are used to reduce the complexity and improve the performance of the algorithms.
 \subsection{Corner Detection}
-Shi Tomasi Corner detection algorithm is similar to Harris Corner Detector. it is widely used in detecting the interest points and feature descriptors. Interest points can be corners edges and blobs and are invariant to rotation, translation, intensity and scale changes. Only difference in harris corner detection and Shi Tomasi corner detection is the computed R value (used to detect the corner).
+This paper trails 2 types of corner detection techniques to check the best possibility for the model.
+\begin{itemize}
+	\item Shi-Tomasi Corner detection.
+	\item FAST Corner detection.
+\end{itemize}
+Shi Tomasi Corner detection algorithm is similar to Harris Corner Detector. it is widely used in detecting the interest points and feature descriptors. Interest points can be corners edges and blobs and are invariant to rotation, translation, intensity and scale changes. Only difference in harris corner detection and Shi Tomasi corner detection is the computed R value (used to detect the corner). 
+FAST (Features from Accelerated Segment Test) on the other hand uses a different technique to predict not only the corners but also the edges based on the colour intensity and the threshold. 
 \subsection{Lucas Kanade Algorithm}
-In the conclusion of ~\cite{galvin1998recovering}, we can see that Lucas Kanade Algorithm is the one of the best algorithm to detect the optical flow. The assumption of Lucas Kanade algorithm is the flow of the local neighbourhood of the pixel is constant. It combines all the information from the surrounding pixels and often solves the inherent ambiguity of the optical flow equation. It is also considered to be less sensitive to the noise. 
+In the conclusion of ~\cite{galvin1998recovering}, we can see that Lucas Kanade Algorithm is the one of the best algorithm to detect the optical flow. The assumption of Lucas Kanade algorithm is the flow of the local neighbourhood of the pixel is constant. It combines all the information from the surrounding pixels and often solves the inherent ambiguity of the optical flow equation. It is also considered to be less sensitive to the noise.
+\section{Density based clustering}
+Clustering in general is combining a group of similar objects based on their similarities like shape, angle, magnitude and position. In order to reduce the memory consumption of the CPU/GPU it is important to consider those points which are critical to the analysis. Thus, clustering the points and vectors based on the position and direction helps to combine the similar points and vectors to predict the movement of the crowd. In this paper we have considered using 2 types of density based clustering.
+\begin{itemize}
+	\item DBSCAN.
+	\item OPTICS.
+\end{itemize}
 \section{Convolutional Neural networks}
-
-\subsection{Convolution Networks}
+Convolutional neural networks are the advanced concept of neural networks which gives computers the ability to understand the images and videos. CNNs currently are being used in a wide range of application like Robotics, Face detection, Crowd detection, Weather study, Advertising, Environmental studies etc. Every neurone in the CNN has the learnable weights. They are initialised with random weights and can be trained to develop a model. CNN are comprised of below 3 topics.
+\begin{itemize}
+	\item Convolution Networks (ConvNets).
+	\item Pooling.
+	\item Fully Connected Layers.
+\end{itemize}
+\subsection{Convolution Networks (ConvNets)}
+Convolution Networks also called as ConvNets is the process of changing the pixels of the image using filters. The image is a matrix of pixels and a filter/kernel is used to alter the pixel value with matrix multiplication. This filter is applied on the whole image by striding through the image. There are different filters for different types of results. 
 \subsection{Pooling}
+Pooling is the process of reducing the size of the image with the help of a filter. The pooling is usually of 2 types, Average pooling and Max pooling. Image is reduced to a desired size by the filter by taking the average of the pixels or Max pixel depending on the pooling technique.
 \subsection{Fully Connected Layers}
+Fully connected layers are the neural networks which has the 1D array of the ConvNets as the inputs and a series of different hidden layers which are fully connected. The output of these networks are the classification nodes which can either be integers or One Hot encoded values predicting the classification. The prediction of the classification is usually done by SoftMax (Picks the highest probability node).
 \subsection{Notable CNN Architectures}
