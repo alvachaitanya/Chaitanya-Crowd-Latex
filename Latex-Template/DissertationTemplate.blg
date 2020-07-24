@@ -8,51 +8,51 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: reference.bib
-Warning--I didn't find a database entry for "BhoFen17"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in rosandic2019crowd
 
 Done.
-You've used 10 entries,
+You've used 12 entries,
             4087 wiz_defined-function locations,
-            891 strings with 9329 characters,
-and the built_in function-call counts, 9553 in all, are:
-= -- 768
-> -- 230
-< -- 99
-+ -- 138
-- -- 42
-* -- 475
-:= -- 1351
-add.period$ -- 21
-call.type$ -- 10
-change.case$ -- 10
-chr.to.int$ -- 234
-cite$ -- 10
-duplicate$ -- 646
-empty$ -- 725
-format.name$ -- 45
-if$ -- 2238
+            898 strings with 9706 characters,
+and the built_in function-call counts, 10949 in all, are:
+= -- 876
+> -- 275
+< -- 109
++ -- 162
+- -- 51
+* -- 543
+:= -- 1560
+add.period$ -- 25
+call.type$ -- 12
+change.case$ -- 12
+chr.to.int$ -- 255
+cite$ -- 13
+duplicate$ -- 750
+empty$ -- 829
+format.name$ -- 56
+if$ -- 2561
 int.to.chr$ -- 0
-int.to.str$ -- 10
-missing$ -- 105
-newline$ -- 53
-num.names$ -- 10
-pop$ -- 230
+int.to.str$ -- 12
+missing$ -- 125
+newline$ -- 59
+num.names$ -- 12
+pop$ -- 279
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 733
+skip$ -- 839
 stack$ -- 0
-substring$ -- 576
-swap$ -- 575
-text.length$ -- 21
+substring$ -- 627
+swap$ -- 657
+text.length$ -- 24
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 10
-warning$ -- 0
-while$ -- 45
-width$ -- 12
-write$ -- 123
+type$ -- 12
+warning$ -- 1
+while$ -- 50
+width$ -- 14
+write$ -- 141
 (There was 1 warning)

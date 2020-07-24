@@ -73,4 +73,14 @@ B.~Galvin, B.~McCane, K.~Novins, D.~Mason, S.~Mills \emph{et~al.}, ``Recovering
   motion fields: An evaluation of eight optical flow algorithms.'' in
   \emph{BMVC}, vol.~98, 1998, pp. 195--204.
 
+\bibitem{rosandic2019crowd}
+N.~Rosandi{\'c}, T.~Petrovi{\'c}, R.~Tu{\v{s}}ek, Z.~Ku{\v{c}}i{\v{s}},
+  A.~{\v{S}}truklec, M.~Liashuha, and A.~Alatas, ``Crowd analysis by using
+  optical flow and density based clustering,'' 2019.
+
+\bibitem{4629878}
+A.~M. {Cheriyadat} and R.~J. {Radke}, ``Detecting dominant motions in dense
+  crowds,'' \emph{IEEE Journal of Selected Topics in Signal Processing},
+  vol.~2, no.~4, pp. 568--581, 2008.
+
 \end{thebibliography}
