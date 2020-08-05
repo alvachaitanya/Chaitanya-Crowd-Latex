@@ -3,7 +3,7 @@ Crowd motion analysis deals with a combination of computer vision, Image process
 learning techniques. This section provides in depth knowledge of related work and state of the art 
 techniques by explaining the recent and ground braking scientific papers in this field. More specifically 
 the motivation introduction and the techniques used in these papers.
-\section{Crowd analysis by using optical flow}
+\section{Crowd analysis using optical flow}
 The papers ~\cite{santoro2010crowd} ~\cite{rosandic2019crowd} gives a generic and very efficient way 
 of tracking the crowd motion in the videos. As shown in the figure \ref{fig:opticaldataflow} below, the 
 process of crowd tracking is done in 4 steps. 
@@ -24,11 +24,44 @@ Now that all the vectors are derived from frame fk and fk+1, block partitioning 
 	\label{fig:opticalflowresult}
 \end{figure}
 
-The paper ~\cite{4629878} is an interesting use of optical flow to detect the dominant motion in the crowded scenes. This paper suggests a combination of both Shi Tomasi corner detection algorithm and FAST corner detection to identify the  interesting points in the frame. Keeping track on interesting points in multiple frames, the trajectory is captured. New feature points are added in every 5 frames to handle the load. The new feature points which are close to the old points are discarded. 
+The paper ~\cite{cheriyadat2008detecting} is an interesting use of optical flow to detect the dominant motion in the crowded scenes. This paper suggests a combination of both Shi Tomasi corner detection algorithm and FAST corner detection to identify the  interesting points in the frame. Keeping track on interesting points in multiple frames, the trajectory is captured. New feature points are added in every 5 frames to handle the load. The new feature points which are close to the old points are discarded. 
 \begin{figure}[tb]
 	\center\includegraphics[width=0.6\textwidth]{dominantresult.png}
 	\caption{Dominant motion detection results}
 	\label{fig:dominantresult}
 \end{figure}
 By getting the trajectories of all the points, a new clustering framework Longest Common Subsequences (LCSS) is introduced. With the help of this framework, multiple trajectories are compared for the matching points and the dominant path is captured by clustering trajectories. The results of this model are shown in the figure \ref{fig:dominantresult}.
+
+\section{Crowd counting}
+Crowd counting is a difficult task and the accuracy of the proposed models depends on the scene. In case of large density of crowd, it is extremely hard to track the crowd for counting. Most recent paper ~\cite{chen2020crowd} suggests that crowd counting can be done in 2 ways. The first is by using detection based models, where the crowd is being tracked with the help of body parts or the shape and the count is produced from the tracking model. The second is Regression based models, where the model predicts the number of the crowd with out tracking them. This model is based on developing a density map and estimating the count from the produced density map. A part from these 2 methods there is another method based on CNN, which also produced promising results. But, in the CNN models, there are cases where the system predicted various different objects as human heads causing a huge difference in the count.  ~\cite{chen2020crowd} deals with the combination of density based model and the CNN in order to fix the on going issue with the CNN models.
+
+~\cite{5374413} is another interesting paper which can be grouped into the detection based models. In this paper, the writer creates a part-template tree with the human postures in different angles, poses and shapes. A hierarchical part-template matching algorithm is used to estimate human shapes and poses by matching local image. Multiple detectors are used to detect the multiple body shapes as shown in the figure \ref{fig:rmfmdcc}. The segmentation is done based on these multiple detectors. Background subtraction is used to evaluate the model and produced promising results.~\cite{chan2008privacy} can be grouped under the regression based model of counting crowds. This paper suggests the motion segmentation of the crowd clustered based on the direction. The count on the each direction is estimated using the Gaussian process. This model is explained in the figure \ref{fig:regcc}
+
+\begin{figure}[tb]
+	\center\includegraphics[width=0.6\textwidth]{Mfeaturemdetector.png}
+	\caption{Multi Feature multi detector model}
+	\label{fig:rmfmdcc}
+\end{figure}
+
+\begin{figure}[tb]
+	\center\includegraphics[width=0.6\textwidth]{RegressionCC.png}
+	\caption{Regression Based crowd counting}
+	\label{fig:regcc}
+\end{figure}
+
+\section{Motion detection and classification}
+In order to understand the behaviour of the crowd, it is important to detect the motion and also classify them. For example to check if the vehicles are moving in the right path, people following the suggested path, person walking in restricted area etc. The crowd motion can be categorised into different groups based on the scene. If the scene is to identify the anomaly in the crowd motion for example in the traffic, the motion can be grouped into Lanes, Arcs, blocks. In case of entering or exiting enclosed buildings the motion can be Bottlenecks or Fountainheads. In case of violent protest, it can be categorised into converging or diverging. In all the cases, it is important to study the type of the motion in order to tackle the situation.
+
+\begin{figure}[tb]
+	\center\includegraphics[width=0.6\textwidth]{stability.png}
+	\caption{Types of motion based on the product and sum of eiganvalues}
+	\label{fig:stability}
+\end{figure}
+
+~\cite{solmaz2012identifying} states that crowd motion can be categorised into 5 types: Lanes, Arcs, Bottlenecks, Fountainheads and Blocks. This paper suggests a model which can categorise the videos with out a training model. It used Particle advection to pick the interesting points in the frame and track these points as a Spacio temporal data. The motion is further produced in the equation using Taylor theorem. The stability of the motion is detected by calculating Jacobian Matrix. The eigenvalues of this matrix is used to classify the motion as shown in the figure \ref{fig:stability}.
+
+
+
+ 
+
  

@@ -14,45 +14,45 @@ Database file #1: reference.bib
 Warning--empty journal in rosandic2019crowd
 
 Done.
-You've used 12 entries,
+You've used 15 entries,
             4087 wiz_defined-function locations,
-            898 strings with 9706 characters,
-and the built_in function-call counts, 10949 in all, are:
-= -- 876
-> -- 275
-< -- 109
-+ -- 162
-- -- 51
-* -- 543
-:= -- 1560
-add.period$ -- 25
-call.type$ -- 12
-change.case$ -- 12
-chr.to.int$ -- 255
-cite$ -- 13
-duplicate$ -- 750
-empty$ -- 829
-format.name$ -- 56
-if$ -- 2561
+            914 strings with 10274 characters,
+and the built_in function-call counts, 13490 in all, are:
+= -- 1089
+> -- 330
+< -- 135
++ -- 192
+- -- 59
+* -- 665
+:= -- 1933
+add.period$ -- 32
+call.type$ -- 15
+change.case$ -- 15
+chr.to.int$ -- 315
+cite$ -- 16
+duplicate$ -- 928
+empty$ -- 1027
+format.name$ -- 67
+if$ -- 3159
 int.to.chr$ -- 0
-int.to.str$ -- 12
-missing$ -- 125
-newline$ -- 59
-num.names$ -- 12
-pop$ -- 279
+int.to.str$ -- 15
+missing$ -- 153
+newline$ -- 68
+num.names$ -- 15
+pop$ -- 339
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 839
+skip$ -- 1036
 stack$ -- 0
-substring$ -- 627
-swap$ -- 657
-text.length$ -- 24
+substring$ -- 770
+swap$ -- 810
+text.length$ -- 30
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 12
+type$ -- 15
 warning$ -- 1
-while$ -- 50
-width$ -- 14
-write$ -- 141
+while$ -- 65
+width$ -- 17
+write$ -- 171
 (There was 1 warning)

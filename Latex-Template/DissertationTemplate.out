@@ -21,22 +21,24 @@
 \BOOKMARK [2][-]{subsection.2.3.3}{Fully Connected Layers}{section.2.3}% 21
 \BOOKMARK [2][-]{subsection.2.3.4}{Notable CNN Architectures}{section.2.3}% 22
 \BOOKMARK [0][-]{chapter.3}{State-of-the-Art}{}% 23
-\BOOKMARK [1][-]{section.3.1}{Crowd analysis by using optical flow}{chapter.3}% 24
-\BOOKMARK [0][-]{chapter.4}{Technical Chapters \(change this to something appropriate\)}{}% 25
-\BOOKMARK [1][-]{section.4.1}{First Section}{chapter.4}% 26
-\BOOKMARK [2][-]{subsection.4.1.1}{First Subsection}{section.4.1}% 27
-\BOOKMARK [2][-]{subsection.4.1.2}{Second Subsection}{section.4.1}% 28
-\BOOKMARK [1][-]{section.4.2}{Bulleted and Numbered Lists}{chapter.4}% 29
-\BOOKMARK [1][-]{section.4.3}{Figures and Captions}{chapter.4}% 30
-\BOOKMARK [1][-]{section.4.4}{Source Code}{chapter.4}% 31
-\BOOKMARK [0][-]{chapter.5}{Results and Discussions}{}% 32
-\BOOKMARK [1][-]{section.5.1}{Dataset}{chapter.5}% 33
-\BOOKMARK [1][-]{section.5.2}{Experimental setup}{chapter.5}% 34
-\BOOKMARK [1][-]{section.5.3}{Results}{chapter.5}% 35
-\BOOKMARK [1][-]{section.5.4}{Discussions}{chapter.5}% 36
-\BOOKMARK [0][-]{chapter.6}{Conclusions \046 Future Work}{}% 37
-\BOOKMARK [1][-]{section.6.1}{Conclusions}{chapter.6}% 38
-\BOOKMARK [1][-]{section.6.2}{Future Work}{chapter.6}% 39
-\BOOKMARK [0][-]{chapter*.7}{Appendix 1}{}% 40
-\BOOKMARK [0][-]{chapter*.8}{Appendix 2 \205 User guide}{}% 41
-\BOOKMARK [0][-]{chapter*.9}{Appendix 3 \205 Installation guide}{}% 42
+\BOOKMARK [1][-]{section.3.1}{Crowd analysis using optical flow}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.2}{Crowd counting}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.3}{Motion detection and classification}{chapter.3}% 26
+\BOOKMARK [0][-]{chapter.4}{Technical Chapters \(change this to something appropriate\)}{}% 27
+\BOOKMARK [1][-]{section.4.1}{First Section}{chapter.4}% 28
+\BOOKMARK [2][-]{subsection.4.1.1}{First Subsection}{section.4.1}% 29
+\BOOKMARK [2][-]{subsection.4.1.2}{Second Subsection}{section.4.1}% 30
+\BOOKMARK [1][-]{section.4.2}{Bulleted and Numbered Lists}{chapter.4}% 31
+\BOOKMARK [1][-]{section.4.3}{Figures and Captions}{chapter.4}% 32
+\BOOKMARK [1][-]{section.4.4}{Source Code}{chapter.4}% 33
+\BOOKMARK [0][-]{chapter.5}{Results and Discussions}{}% 34
+\BOOKMARK [1][-]{section.5.1}{Dataset}{chapter.5}% 35
+\BOOKMARK [1][-]{section.5.2}{Experimental setup}{chapter.5}% 36
+\BOOKMARK [1][-]{section.5.3}{Results}{chapter.5}% 37
+\BOOKMARK [1][-]{section.5.4}{Discussions}{chapter.5}% 38
+\BOOKMARK [0][-]{chapter.6}{Conclusions \046 Future Work}{}% 39
+\BOOKMARK [1][-]{section.6.1}{Conclusions}{chapter.6}% 40
+\BOOKMARK [1][-]{section.6.2}{Future Work}{chapter.6}% 41
+\BOOKMARK [0][-]{chapter*.7}{Appendix 1}{}% 42
+\BOOKMARK [0][-]{chapter*.8}{Appendix 2 \205 User guide}{}% 43
+\BOOKMARK [0][-]{chapter*.9}{Appendix 3 \205 Installation guide}{}% 44

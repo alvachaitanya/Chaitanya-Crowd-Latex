@@ -78,9 +78,25 @@ N.~Rosandi{\'c}, T.~Petrovi{\'c}, R.~Tu{\v{s}}ek, Z.~Ku{\v{c}}i{\v{s}},
   A.~{\v{S}}truklec, M.~Liashuha, and A.~Alatas, ``Crowd analysis by using
   optical flow and density based clustering,'' 2019.
 
-\bibitem{4629878}
-A.~M. {Cheriyadat} and R.~J. {Radke}, ``Detecting dominant motions in dense
+\bibitem{cheriyadat2008detecting}
+A.~M. Cheriyadat and R.~J. Radke, ``Detecting dominant motions in dense
   crowds,'' \emph{IEEE Journal of Selected Topics in Signal Processing},
   vol.~2, no.~4, pp. 568--581, 2008.
+
+\bibitem{chen2020crowd}
+J.~Chen, W.~Su, and Z.~Wang, ``Crowd counting with crowd attention
+  convolutional neural network,'' \emph{Neurocomputing}, vol. 382, pp.
+  210--220, 2020.
+
+\bibitem{5374413}
+Z.~{Lin} and L.~S. {Davis}, ``Shape-based human detection and segmentation via
+  hierarchical part-template matching,'' \emph{IEEE Transactions on Pattern
+  Analysis and Machine Intelligence}, vol.~32, no.~4, pp. 604--618, 2010.
+
+\bibitem{chan2008privacy}
+A.~B. Chan, Z.-S.~J. Liang, and N.~Vasconcelos, ``Privacy preserving crowd
+  monitoring: Counting people without people models or tracking,'' in
+  \emph{2008 IEEE Conference on Computer Vision and Pattern Recognition}.\hskip
+  1em plus 0.5em minus 0.4em\relax IEEE, 2008, pp. 1--7.
 
 \end{thebibliography}
