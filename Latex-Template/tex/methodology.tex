@@ -1,7 +1,77 @@
-\chapter{Technical Chapters (change this to something appropriate)}
-\textbf{Note: This part of the dissertation will normally be expanded to be a 
-\textit{series of chapters}.}
+\chapter{Feature Detection}
+Feature detection using open CV is the a very useful and important technique is most of the areas which deals with images and videos. Each image or the frame is the combination of pixels and each each pixel is the number that represents a colour. For a computer it is extremely difficult to understand the difference between these numbers and thus, feature detection is a complex yet interesting topic to understand. This paper tries to implements 3 different corner detection techniques 1) Harris Corner detection, 2) Shi Tomasi corner detection. 3) FAST algorithm for corner detection. The advantages and disadvantages of these techniques are discussed further.
+\section{Harris Corner Detection}
+ This corner detection technique was first introduced by Chris Harris \& Mike Stephens in their paper ~\cite{harris1988combined} in 1988. Idea behind this technique is to find the difference between the intensity for a displacement of (u, v) in all directions. The mathematical equation \ref{eqn:1} for the same is given below.
+ 
+ \begin{equation}\label{eqn:1}
+    E(u, v) = \sum_{x, y} w(x, y) [I(x+u, y+v)-I(x, y)]^{2}
+ \end{equation}
 
+Window function \textit{w(x, y)} is either a rectangular window or gaussian window which gives weights to pixels underneath. The corners are detected by maximising the \textit{E(u, v)} which means maximising the second term by using Tylor's theorem as shown in the equations \ref{eqn:2} \& \ref{eqn:3}
+
+ \begin{equation}\label{eqn:2}
+    	E(u, v) \approx 
+	\begin{bmatrix} 
+		u & v
+	\end{bmatrix} 
+	M
+	\begin{bmatrix}
+		u\\v 
+	\end{bmatrix}
+\end{equation}
+
+where
+
+\begin{equation}\label{eqn:3}
+	M = \sum_{x,y} w(x, y)
+    	\begin{bmatrix}
+		I_{x}I_{x} & I_{x}I_{y}
+		\\
+		I_{x}I_{y} & I_{y}I_{y}
+	\end{bmatrix}
+\end{equation}
+Here, $I_{x}$ and $I_{y}$ are image derivatives in x and y directions respectively.
+\textit{R} value is calculated from the eigenvalues of the matrix \textit{M} from the equation \ref{eqn:4}
+ \begin{equation}\label{eqn:4}
+	R = det(M) - K (trace(M))^{2}
+\end{equation}
+where
+\begin{itemize}
+	\item det(M) = $\lambda_{1} \lambda_{2}$.
+	\item trace(M) = $\lambda_{1} + \lambda_{2}$.
+	\item $\lambda_{1}$ and $\lambda_{2}$ are the eigenvalues of M.
+	\item k - Harris detector free parameter in the equation.
+\end{itemize}
+edge, corner and flat region in the image are detected with the help of eigenvalues as shown in the figure \ref{fig:harris}
+
+\begin{figure}[tb]
+	\center\includegraphics[width=0.6\textwidth]{harris.jpg}
+	\caption{Harris corner detection using eigenvalues}
+	\label{fig:harris}
+\end{figure}
+\section{Shi Tomasi Corner Detection}
+Shi Tomasi Corner detection was first proposed by J. Shi and C. Tomasi in the paper ~\cite{shi1994good} in 1994. This approach is a small modification to the Harris Corner detection in calculating the \textit{R} value. As mentioned before the \textit{R} value is calculated by \ref{eqn:4}
+But, as per Shi Tomasi Corner detection, the \textit{R} value is calculated by minimising the product of eigenvalues as shown in \ref{eqn:5}.
+ \begin{equation}\label{eqn:5}
+	R = min(\lambda_{1}, \lambda_{2})
+\end{equation}
+If this value is greater than the threshold, then it is considered as the corner.
+\section{FAST Algorithm for Corner Detection}
+
+
+
+
+\chapter{Density Based Clustering}
+
+\chapter{Lucas-Kanade Algorithm}
+
+\chapter{Convolutional Neural Networks}
+
+\chapter{Machine Learning}
+
+\chapter{Data collection \& Pre Processing}
+
+\chapter{Implementation}
 The technical body of the dissertation consists of a number of chapters (just 
 one here, but there will usually be more).  Follow a logical structure in how 
 you present your work.  This will usually be the phases of the software 

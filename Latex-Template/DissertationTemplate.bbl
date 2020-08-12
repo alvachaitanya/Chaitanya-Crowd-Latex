@@ -99,4 +99,19 @@ A.~B. Chan, Z.-S.~J. Liang, and N.~Vasconcelos, ``Privacy preserving crowd
   \emph{2008 IEEE Conference on Computer Vision and Pattern Recognition}.\hskip
   1em plus 0.5em minus 0.4em\relax IEEE, 2008, pp. 1--7.
 
+\bibitem{bansod2020crowd}
+S.~D. Bansod and A.~V. Nandedkar, ``Crowd anomaly detection and localization
+  using histogram of magnitude and momentum,'' \emph{The Visual Computer},
+  vol.~36, no.~3, pp. 609--620, 2020.
+
+\bibitem{harris1988combined}
+C.~G. Harris, M.~Stephens \emph{et~al.}, ``A combined corner and edge
+  detector.'' in \emph{Alvey vision conference}, vol.~15, no.~50.\hskip 1em
+  plus 0.5em minus 0.4em\relax Citeseer, 1988, pp. 10--5244.
+
+\bibitem{shi1994good}
+J.~Shi \emph{et~al.}, ``Good features to track,'' in \emph{1994 Proceedings of
+  IEEE conference on computer vision and pattern recognition}.\hskip 1em plus
+  0.5em minus 0.4em\relax IEEE, 1994, pp. 593--600.
+
 \end{thebibliography}

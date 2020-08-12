@@ -8,8 +8,16 @@
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Multi Feature multi detector model}}{10}{figure.3.4}%
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Regression Based crowd counting}}{11}{figure.3.5}%
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Types of motion based on the product and sum of eiganvalues}}{11}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Crowd categorisation using 2 deep networks}}{12}{figure.3.7}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Types of anomalies}}{13}{figure.3.8}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Highly Technical Diagram}}{14}{figure.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Highly Technical Diagram two}}{14}{figure.4.2}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Harris corner detection using eigenvalues}}{15}{figure.4.1}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Highly Technical Diagram}}{23}{figure.9.1}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Highly Technical Diagram two}}{23}{figure.9.2}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
