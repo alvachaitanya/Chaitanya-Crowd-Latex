@@ -48,10 +48,24 @@ Corner Detection and Lucas–Kanade algorithm to detect the motion of the crowd.
 ~\cite{9078065} uses motion information Images (MII) to train a CNN model for the motion and abnormality detection
 \subsection{Identifying the types of motion}
 Identifying the types of the motion can be a very useful in order to understand the crowd behaviour, 
-planning an event, avoiding traffic jams and predicting the abnormal motion. Wei~\cite{wei2020very} trained 2 VGG16 CNN architecture models to detect the type of the crowd whether it is homogenous, heterogeneous or violent crowd. ~\cite{solmaz2012identifying} studies the stability with the help of Tylor's theorem and Jacobean matrix and identifies the crowd motion to be of 5 generic types i.e. Lanes, arc/circle, fountainheads, bottlenecks and blocks.
+planning an event, avoiding traffic jams and predicting the abnormal motion. Wei~\cite{wei2020very} trained 2 VGG16 CNN 
+architecture models to detect the type of the crowd whether it is homogenous, heterogeneous or violent crowd. ~\cite{solmaz2012identifying} s
+tudies the stability with the help of Tylor's theorem and Jacobean matrix and identifies the crowd motion to be of 5 generic 
+types i.e. Lanes, arc/circle, fountainheads, bottlenecks and blocks.
 
 \section{Aim and Objectives} \label{sec:objectives}
-Define the scope and objectives of your project.
+This project aims to classify different types of crowd motion into 4 classes: Arcs, Lanes, Converging/Diverging and Blocks/Random. The project focuses on the drone footages by exploring state of the art CNN and machine learning techniques. 
+This project also explore different optical flow techniques and compare the advantages and disadvantages of the existing techniques. The proposed model also helps to understand the motion in the scene and can be used to train multiple anomaly detection techniques. To achieve these aims the following objectives were setup:
+\begin{enumerate}
+	\item Identifying the interesting features in the frame to track the motion with the help of different corner detection techniques.
+	\item Exploring multiple options for noise reduction and improving the quality of the tracking through density based clustering algorithms.
+	\item Developing a new approach to track the points which improves the quality of the features and reduce the computation time.
+	\item Use of this approach to understand the motion in the scene and create the data for anomaly detection.
+	\item Creating the Motion information image dataset from multiple videos and labelling the data for training CNN model.
+	\item Creating a Spacio Temporal dataset with block wise information of magnitude and direction for training the machine learning models.
+	\item Comparing the best approach visually and statistically to identify the best approach in this context.
+	\item Improving the model to perform similar operation from a fixed lens security cameras to a dynamic drone footages.
+\end{enumerate}
 
 \section{Achievements}
 Summarise what this project has achieved. Avoid terms like I achieved this or 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.7.3)  10 AUG 2020 14:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.7.3)  25 AUG 2020 16:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -430,44 +430,52 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
 \Hy@SectionHShift=\skip55
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen182
+\WF@size=\dimen183
+\c@WF@wrappedlines=\count280
+\WF@box=\box52
+\WF@everypar=\toks29
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count280
-\Gm@cntv=\count281
-\c@Gm@tempcnt=\count282
-\Gm@bindingoffset=\dimen182
-\Gm@wd@mp=\dimen183
-\Gm@odd@mp=\dimen184
-\Gm@even@mp=\dimen185
-\Gm@layoutwidth=\dimen186
-\Gm@layoutheight=\dimen187
-\Gm@layouthoffset=\dimen188
-\Gm@layoutvoffset=\dimen189
-\Gm@dimlist=\toks29
+\Gm@cnth=\count281
+\Gm@cntv=\count282
+\c@Gm@tempcnt=\count283
+\Gm@bindingoffset=\dimen184
+\Gm@wd@mp=\dimen185
+\Gm@odd@mp=\dimen186
+\Gm@even@mp=\dimen187
+\Gm@layoutwidth=\dimen188
+\Gm@layoutheight=\dimen189
+\Gm@layouthoffset=\dimen190
+\Gm@layoutvoffset=\dimen191
+\Gm@dimlist=\toks30
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count283
-\lst@gtempboxa=\box52
-\lst@token=\toks30
-\lst@length=\count284
-\lst@currlwidth=\dimen190
-\lst@column=\count285
-\lst@pos=\count286
-\lst@lostspace=\dimen191
-\lst@width=\dimen192
-\lst@newlines=\count287
-\lst@lineno=\count288
-\lst@maxwidth=\dimen193
+\lst@mode=\count284
+\lst@gtempboxa=\box53
+\lst@token=\toks31
+\lst@length=\count285
+\lst@currlwidth=\dimen192
+\lst@column=\count286
+\lst@pos=\count287
+\lst@lostspace=\dimen193
+\lst@width=\dimen194
+\lst@newlines=\count288
+\lst@lineno=\count289
+\lst@maxwidth=\dimen195
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count289
-\lst@skipnumbers=\count290
-\lst@framebox=\box53
+\c@lstnumber=\count290
+\lst@skipnumbers=\count291
+\lst@framebox=\box54
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
@@ -506,22 +514,22 @@ Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 ))
 (/usr/local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count291
+\etb@tempcnta=\count292
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
-\ttl@box=\box54
+\ttl@box=\box55
 \beforetitleunit=\skip56
 \aftertitleunit=\skip57
-\ttl@plus=\dimen194
-\ttl@minus=\dimen195
-\ttl@toksa=\toks31
-\titlewidth=\dimen196
-\titlewidthlast=\dimen197
-\titlewidthfirst=\dimen198
+\ttl@plus=\dimen196
+\ttl@minus=\dimen197
+\ttl@toksa=\toks32
+\titlewidth=\dimen198
+\titlewidthlast=\dimen199
+\titlewidthfirst=\dimen256
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/lmodern.sty
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
@@ -562,8 +570,8 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count292
-\l__pdf_internal_box=\box55
+\l__kernel_color_stack_int=\count293
+\l__pdf_internal_box=\box56
 )
 (./DissertationTemplate.aux)
 \openout1 = `DissertationTemplate.aux'.
@@ -595,19 +603,19 @@ LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
 
 (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count293
-\scratchdimen=\dimen199
-\scratchbox=\box56
-\nofMPsegments=\count294
-\nofMParguments=\count295
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count296
-\MPscratchDim=\dimen256
-\MPnumerator=\count297
-\makeMPintoPDFobject=\count298
-\everyMPtoPDFconversion=\toks33
+\scratchcounter=\count294
+\scratchdimen=\dimen257
+\scratchbox=\box57
+\nofMPsegments=\count295
+\nofMParguments=\count296
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count297
+\MPscratchDim=\dimen258
+\MPnumerator=\count298
+\makeMPintoPDFobject=\count299
+\everyMPtoPDFconversion=\toks34
 )
-\AtBeginShipoutBox=\box57
+\AtBeginShipoutBox=\box58
 Package hyperref Info: Link coloring ON on input line 7.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -619,7 +627,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count299
+\c@section@level=\count300
 )
 LaTeX Info: Redefining \ref on input line 7.
 LaTeX Info: Redefining \pageref on input line 7.
@@ -663,9 +671,9 @@ LaTeX Info: Redefining \nameref on input line 7.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count300
-\c@mv@tabular=\count301
-\c@mv@boldtabular=\count302
+\c@lstlisting=\count301
+\c@mv@tabular=\count302
+\c@mv@boldtabular=\count303
 (./tex/title-page.tex
 
 LaTeX Font Warning: Font shape `T1/opensans-TLF/m/sc' undefined
@@ -734,12 +742,12 @@ LaTeX Font Info:    Font shape `T1/opensans-TLF/b/it' will be
 (Font)              scaled to size 12.0pt on input line 62.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
 (Font)              scaled to size 14.4pt on input line 64.
-<images/svip-logo.png, id=213, 1415.2875pt x 559.33969pt>
+<images/svip-logo.png, id=289, 1415.2875pt x 559.33969pt>
 File: images/svip-logo.png Graphic file (type png)
 <use images/svip-logo.png>
 Package pdftex.def Info: images/svip-logo.png  used on input line 73.
 (pdftex.def)             Requested size: 125.98827pt x 49.79231pt.
-<images/unilogo.png, id=215, 663.98062pt x 170.88844pt>
+<images/unilogo.png, id=291, 663.98062pt x 170.88844pt>
 File: images/unilogo.png Graphic file (type png)
 <use images/unilogo.png>
 Package pdftex.def Info: images/unilogo.png  used on input line 75.
@@ -797,6 +805,19 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
  [7
 
+] (./DissertationTemplate.lot)
+\tf@lot=\write6
+\openout6 = `DissertationTemplate.lot'.
+
+ [8
+
+]
+(./DissertationTemplate.lol)
+\tf@lol=\write7
+\openout7 = `DissertationTemplate.lol'.
+
+ [9
+
 ] (./tex/introduction.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
@@ -821,50 +842,76 @@ Overfull \hbox (10.71312pt too wide) in paragraph at lines 14--15
 
 [4
 
-] [5] [6]) (./tex/sota.tex [7]
+] [5]
+<images/AlexNet.png, id=535, 853.1875pt x 342.27875pt>
+File: images/AlexNet.png Graphic file (type png)
+<use images/AlexNet.png>
+Package pdftex.def Info: images/AlexNet.png  used on input line 54.
+(pdftex.def)             Requested size: 256.07741pt x 102.73141pt.
+ [6]
+<images/vgg11.png, id=542, 853.1875pt x 134.5025pt>
+File: images/vgg11.png Graphic file (type png)
+<use images/vgg11.png>
+Package pdftex.def Info: images/vgg11.png  used on input line 64.
+(pdftex.def)             Requested size: 256.07741pt x 40.36952pt.
+<images/resnetskip.png, id=544, 572.1375pt x 330.23375pt>
+File: images/resnetskip.png Graphic file (type png)
+<use images/resnetskip.png>
+Package pdftex.def Info: images/resnetskip.png  used on input line 72.
+(pdftex.def)             Requested size: 256.07741pt x 147.80765pt.
+ [7 <./images/AlexNet.png> <./images/vgg11.png>] [8 <./images/resnetskip.png (P
+NG copy)>]
+<images/logisticregression.png, id=559, 727.71875pt x 328.22626pt>
+File: images/logisticregression.png Graphic file (type png)
+<use images/logisticregression.png>
+Package pdftex.def Info: images/logisticregression.png  used on input line 103.
+
+(pdftex.def)             Requested size: 256.07741pt x 115.50194pt.
+ [9 <./images/logisticregression.png>] [10])
+(./tex/sota.tex [11]
 Chapter 3.
-<images/Opticalflowdataflow.png, id=393, 955.57pt x 710.655pt>
+<images/Opticalflowdataflow.png, id=586, 955.57pt x 710.655pt>
 File: images/Opticalflowdataflow.png Graphic file (type png)
 <use images/Opticalflowdataflow.png>
 Package pdftex.def Info: images/Opticalflowdataflow.png  used on input line 11.
 
 (pdftex.def)             Requested size: 256.07741pt x 190.4372pt.
-<images/opticalflowresult.png, id=395, 545.03625pt x 172.645pt>
+<images/opticalflowresult.png, id=588, 545.03625pt x 172.645pt>
 File: images/opticalflowresult.png Graphic file (type png)
 <use images/opticalflowresult.png>
 Package pdftex.def Info: images/opticalflowresult.png  used on input line 30.
 (pdftex.def)             Requested size: 256.07741pt x 81.11417pt.
-<images/dominantresult.png, id=397, 670.505pt x 265.99374pt>
+<images/dominantresult.png, id=590, 670.505pt x 265.99374pt>
 File: images/dominantresult.png Graphic file (type png)
 <use images/dominantresult.png>
 Package pdftex.def Info: images/dominantresult.png  used on input line 41.
 (pdftex.def)             Requested size: 256.07741pt x 101.586pt.
-[8
+[12
 
-] [9 <./images/Opticalflowdataflow.png> <./images/opticalflowresult.png> <./ima
-ges/dominantresult.png>]
-<images/Mfeaturemdetector.png, id=418, 801.99625pt x 421.575pt>
+] [13 <./images/Opticalflowdataflow.png> <./images/opticalflowresult.png> <./im
+ages/dominantresult.png>]
+<images/Mfeaturemdetector.png, id=611, 801.99625pt x 421.575pt>
 File: images/Mfeaturemdetector.png Graphic file (type png)
 <use images/Mfeaturemdetector.png>
 Package pdftex.def Info: images/Mfeaturemdetector.png  used on input line 75.
 (pdftex.def)             Requested size: 256.07741pt x 134.61084pt.
-<images/RegressionCC.png, id=419, 508.90125pt x 259.97125pt>
+<images/RegressionCC.png, id=612, 508.90125pt x 259.97125pt>
 File: images/RegressionCC.png Graphic file (type png)
 <use images/RegressionCC.png>
 Package pdftex.def Info: images/RegressionCC.png  used on input line 81.
 (pdftex.def)             Requested size: 256.07741pt x 130.8223pt.
- [10 <./images/Mfeaturemdetector.png>]
-<images/stability.png, id=429, 850.17625pt x 193.72375pt>
+ [14 <./images/Mfeaturemdetector.png>]
+<images/stability.png, id=623, 850.17625pt x 193.72375pt>
 File: images/stability.png Graphic file (type png)
 <use images/stability.png>
 Package pdftex.def Info: images/stability.png  used on input line 97.
 (pdftex.def)             Requested size: 256.07741pt x 58.35109pt.
-<images/deepnets.jpg, id=432, 361.35pt x 354.70116pt>
+<images/deepnets.jpg, id=626, 361.35pt x 354.70116pt>
 File: images/deepnets.jpg Graphic file (type jpg)
 <use images/deepnets.jpg>
 Package pdftex.def Info: images/deepnets.jpg  used on input line 110.
 (pdftex.def)             Requested size: 256.07741pt x 251.36871pt.
- [11 <./images/RegressionCC.png> <./images/stability.png>]
+ [15 <./images/RegressionCC.png> <./images/stability.png>]
 Overfull \hbox (4.24352pt too wide) in paragraph at lines 125--126
 \T1/opensans-TLF/m/sc/12 Another very in-ter-est-ing and key pa-pers pub-lished
  are fo-cused on the Anomaly
@@ -876,98 +923,102 @@ Overfull \hbox (0.81311pt too wide) in paragraph at lines 127--128
  from the sta-ble surveil-
  []
 
-[12 <./images/deepnets.jpg>]
-<images/anomaly.jpg, id=448, 2038.61626pt x 492.84125pt>
+[16 <./images/deepnets.jpg>]
+<images/anomaly.jpg, id=642, 2038.61626pt x 492.84125pt>
 File: images/anomaly.jpg Graphic file (type jpg)
 <use images/anomaly.jpg>
 Package pdftex.def Info: images/anomaly.jpg  used on input line 130.
 (pdftex.def)             Requested size: 256.07741pt x 61.9058pt.
-) (./tex/methodology.tex [13 <./images/anomaly.jpg>]
+) (./tex/methodology.tex [17 <./images/anomaly.jpg>]
 Chapter 4.
-[14
+<images/mii.png, id=647, 224.84pt x 224.84pt>
+File: images/mii.png Graphic file (type png)
+<use images/mii.png>
+Package pdftex.def Info: images/mii.png  used on input line 7.
+(pdftex.def)             Requested size: 149.38635pt x 106.69717pt.
 
-]
-<images/harris.jpg, id=474, 433.62pt x 417.56pt>
-File: images/harris.jpg Graphic file (type jpg)
-<use images/harris.jpg>
-Package pdftex.def Info: images/harris.jpg  used on input line 48.
-(pdftex.def)             Requested size: 256.07741pt x 246.60674pt.
- [15 <./images/harris.jpg>] [16]
-Chapter 5.
-[17
+Underfull \hbox (badness 1092) in paragraph at lines 8--8
+[]\T1/opensans-TLF/m/sc/12 Figure 4.1: []Motion In-for-
+ []
 
-]
-Chapter 6.
+
+Underfull \hbox (badness 2384) in paragraph at lines 11--13
+\T1/opensans-TLF/m/sc/12 which is lo-ca-tion cen-tric to un-der-stand and
+ []
+
 [18
 
-]
-Chapter 7.
-[19
+ <./images/mii.png (PNG copy)>]
+<images/blockwiseimage.png, id=652, 561.09625pt x 423.5825pt>
+File: images/blockwiseimage.png Graphic file (type png)
+<use images/blockwiseimage.png>
+Package pdftex.def Info: images/blockwiseimage.png  used on input line 18.
+(pdftex.def)             Requested size: 149.37958pt x 112.76588pt.
 
-]
-Chapter 8.
+Underfull \hbox (badness 10000) in paragraph at lines 15--21
+\T1/opensans-TLF/m/sc/12 dom-i-nant mo-tion in-for-ma-tion.
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 24--25
+\T1/opensans-TLF/m/sc/12 for Ma-chine learn-ing mod-els, ev-ery frame is
+ []
+
+[19 <./images/blockwiseimage.png>]
+Chapter 5.
 [20
 
 ]
-Chapter 9.
-
-Overfull \hbox (19.06572pt too wide) in paragraph at lines 91--93
-\T1/opensans-TLF/m/sc/12 If nec-es-sary, also use sub-sec-tions. Sub-sec-tions 
-are en-tered us-ing the \T1/lmtt/m/n/12 \subsection
- []
-
-
-Overfull \hbox (16.68282pt too wide) in paragraph at lines 104--107
-\T1/opensans-TLF/m/sc/12 Note: This sec-tion be-gins with the code \T1/lmtt/m/n
-/12 \section{Bulleted and Numbered Lists}
- []
-
-[21
-
-]
-LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 110.
- [22]
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 152.
-<images/image.jpg, id=521, 976.64874pt x 266.9975pt>
-File: images/image.jpg Graphic file (type jpg)
-<use images/image.jpg>
-Package pdftex.def Info: images/image.jpg  used on input line 155.
-(pdftex.def)             Requested size: 256.07741pt x 70.00436pt.
-File: images/image.jpg Graphic file (type jpg)
-<use images/image.jpg>
-Package pdftex.def Info: images/image.jpg  used on input line 162.
-(pdftex.def)             Requested size: 256.07741pt x 70.00436pt.
-
-Overfull \hbox (19.02219pt too wide) in paragraph at lines 182--187
-[]\T1/opensans-TLF/m/sc/12 Figures have au-to-matic num-ber-ing, and it is pos-
-si-ble to make cross-references
- []
-
-[23 <./images/image.jpg>]
-(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
+<images/harris.jpg, id=676, 433.62pt x 417.56pt>
+File: images/harris.jpg Graphic file (type jpg)
+<use images/harris.jpg>
+Package pdftex.def Info: images/harris.jpg  used on input line 77.
+(pdftex.def)             Requested size: 213.39568pt x 205.4918pt.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-Underfull \hbox (badness 10000) in paragraph at lines 200--202
-
- []
-
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 202.
+nput line 82.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 202.
+(Font)              scaled to size 10.95pt on input line 82.
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 203.
-) (./tex/result.tex
-Overfull \hbox (1.35982pt too wide) in paragraph at lines 207--1
-\T1/opensans-TLF/m/sc/12 You can change \T1/lmtt/m/n/12 language=Python \T1/ope
-nsans-TLF/m/sc/12 to \T1/lmtt/m/n/12 language=Java\T1/opensans-TLF/m/sc/12 , et
-c., for dif-fer-ent pro-gram-
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 85.
+
+[21 <./images/harris.jpg>] [22]
+<images/CornerDetection.jpg, id=722, 720.6925pt x 222.8325pt>
+File: images/CornerDetection.jpg Graphic file (type jpg)
+<use images/CornerDetection.jpg>
+Package pdftex.def Info: images/CornerDetection.jpg  used on input line 144.
+(pdftex.def)             Requested size: 384.1096pt x 118.76369pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[23 <./images/CornerDetection.jpg>] [24]
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
+[]\T1/opensans-TLF/m/sc/12 Low due to mul-ti-ple
  []
 
-[24]
-Chapter 10.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[25] [26]
+<images/LKAlgorithm.jpg, id=777, 332.24126pt x 339.2675pt>
+File: images/LKAlgorithm.jpg Graphic file (type jpg)
+<use images/LKAlgorithm.jpg>
+Package pdftex.def Info: images/LKAlgorithm.jpg  used on input line 277.
+(pdftex.def)             Requested size: 256.07741pt x 261.50597pt.
+ [27 <./images/LKAlgorithm.jpg>]
+Chapter 6.
+<images/Architecture.jpeg, id=791, 412.4208pt x 334.3692pt>
+File: images/Architecture.jpeg Graphic file (type jpg)
+<use images/Architecture.jpeg>
+Package pdftex.def Info: images/Architecture.jpeg  used on input line 295.
+(pdftex.def)             Requested size: 426.79935pt x 341.45512pt.
+[28
+
+ <./images/Architecture.jpeg>] [29] [30]) (./tex/result.tex [31] [32]
+Chapter 7.
 
 Overfull \hbox (14.89877pt too wide) in paragraph at lines 14--21
 []\T1/opensans-TLF/m/sc/12 The pre-vi-ous para-graph demon-strates the use of a
@@ -975,18 +1026,18 @@ u-to-matic cross-references:
  []
 
 
-LaTeX Warning: Reference `objectives sec' on page 25 undefined on input line 25
+LaTeX Warning: Reference `objectives sec' on page 33 undefined on input line 25
 .
 
-[25
+[33
 
-]) (./tex/conclusion.tex [26]
-Chapter 11.
-) (./DissertationTemplate.bbl [27
+]) (./tex/conclusion.tex [34]
+Chapter 8.
+) (./DissertationTemplate.bbl [35
 
-] [28
+] [36
 
-]) (./tex/appendix-1.tex [29]
+]) (./tex/appendix-1.tex [37]
 Overfull \hbox (8.2697pt too wide) in paragraph at lines 2--8
 \T1/opensans-TLF/m/sc/12 haps ad-di-tional spec-i-fi-ca-tions, ta-bles or di-a-
 grams that would dis-tract the reader
@@ -994,53 +1045,44 @@ grams that would dis-tract the reader
 
 LaTeX Font Info:    Font shape `T1/opensans-TLF/b/it' will be
 (Font)              scaled to size 14.4pt on input line 10.
-) (./tex/user-guide.tex [30
+) (./tex/user-guide.tex [38
 
-]) (./tex/installation-guide.tex [31
+]) (./tex/installation-guide.tex [39
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
- [32
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 48.
+ [40
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 48.
 
 (./DissertationTemplate.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 48.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 48.
+Package rerunfilecheck Info: File `DissertationTemplate.out' has not changed.
+(rerunfilecheck)             Checksum: DF61C86C65499E21366AA45E4BDEDBA5;4804.
 
-
-Package rerunfilecheck Warning: File `DissertationTemplate.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `DissertationTemplate.out':
-(rerunfilecheck)             Before: 3BB04CDBDCC80619AB3D10EC2F753063;3398
-(rerunfilecheck)             After:  A5D2F6D3766F93054EC185A55F25DD00;3480.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 48.
  ) 
 Here is how much of TeX's memory you used:
- 13156 strings out of 480471
- 193590 string characters out of 5899411
- 662913 words of memory out of 5000000
- 28678 multiletter control sequences out of 15000+600000
- 573996 words of font info for 81 fonts, out of 8000000 for 9000
+ 13557 strings out of 480471
+ 199354 string characters out of 5899411
+ 676377 words of memory out of 5000000
+ 28919 multiletter control sequences out of 15000+600000
+ 573196 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,7n,76p,933b,1390s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,10n,76p,1168b,1963s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
-texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2020/t
-exmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2020/texmf-dist/
-fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/
-dvips/lm/lm-mathex.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/open
+texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
+20/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2020/texmf-d
+ist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2020/texmf-dist/fonts/
+enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/open
 sans/a_nvvucy.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/opensans/
 a_jg4h6q.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/ascender/opensans/
 OpenSans-Bold.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/ascender/open
@@ -1049,18 +1091,20 @@ cender/opensans/OpenSans-Italic.pfb></usr/local/texlive/2020/texmf-dist/fonts/t
 ype1/ascender/opensans/OpenSans-Regular.pfb></usr/local/texlive/2020/texmf-dist
 /fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/typ
 e1/public/lm/lmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/
-lm/lmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pf
-b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/loca
-l/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/
-2020/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2020/tex
-mf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2020/texmf-dist/fo
-nts/type1/public/lm/lmtk10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/
-public/lm/lmtt10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/
-lmtt12.pfb>
-Output written on DissertationTemplate.pdf (41 pages, 2957838 bytes).
+lm/lmmi6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.pf
+b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/loc
+al/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2
+020/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2020/texmf-
+dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2020/texmf-dist/fon
+ts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/p
+ublic/lm/lmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lm
+tk10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><
+/usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local
+/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtti10.pfb>
+Output written on DissertationTemplate.pdf (51 pages, 3336293 bytes).
 PDF statistics:
- 665 PDF objects out of 1000 (max. 8388607)
- 581 compressed objects within 6 object streams
- 138 named destinations out of 1000 (max. 500000)
- 477 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1002 PDF objects out of 1200 (max. 8388607)
+ 890 compressed objects within 9 object streams
+ 279 named destinations out of 1000 (max. 500000)
+ 669 words of extra memory for PDF output out of 10000 (max. 10000000)
 

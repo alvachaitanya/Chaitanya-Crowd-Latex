@@ -73,6 +73,15 @@ B.~Galvin, B.~McCane, K.~Novins, D.~Mason, S.~Mills \emph{et~al.}, ``Recovering
   motion fields: An evaluation of eight optical flow algorithms.'' in
   \emph{BMVC}, vol.~98, 1998, pp. 195--204.
 
+\bibitem{krizhevsky2012imagenet}
+A.~Krizhevsky, I.~Sutskever, and G.~E. Hinton, ``Imagenet classification with
+  deep convolutional neural networks,'' in \emph{Advances in neural information
+  processing systems}, 2012, pp. 1097--1105.
+
+\bibitem{simonyan2014very}
+K.~Simonyan and A.~Zisserman, ``Very deep convolutional networks for
+  large-scale image recognition,'' \emph{arXiv preprint arXiv:1409.1556}, 2014.
+
 \bibitem{rosandic2019crowd}
 N.~Rosandi{\'c}, T.~Petrovi{\'c}, R.~Tu{\v{s}}ek, Z.~Ku{\v{c}}i{\v{s}},
   A.~{\v{S}}truklec, M.~Liashuha, and A.~Alatas, ``Crowd analysis by using
@@ -113,5 +122,10 @@ C.~G. Harris, M.~Stephens \emph{et~al.}, ``A combined corner and edge
 J.~Shi \emph{et~al.}, ``Good features to track,'' in \emph{1994 Proceedings of
   IEEE conference on computer vision and pattern recognition}.\hskip 1em plus
   0.5em minus 0.4em\relax IEEE, 1994, pp. 593--600.
+
+\bibitem{rosten2006machine}
+E.~Rosten and T.~Drummond, ``Machine learning for high-speed corner
+  detection,'' in \emph{European conference on computer vision}.\hskip 1em plus
+  0.5em minus 0.4em\relax Springer, 2006, pp. 430--443.
 
 \end{thebibliography}
