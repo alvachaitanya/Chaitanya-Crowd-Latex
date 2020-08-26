@@ -52,7 +52,7 @@ There are few CNN architectures which are available as the modules. These module
 AlexNet CNN architecture was first proposed in \cite{krizhevsky2012imagenet} by Alex Krizhevsky in the year 2012. The architecture diagram \ref{fig:AlexNet} of the Alexnet gives the insight of the depth and the processing of the CNN. AlexNet contained 8 layers, among them 5 were convolution layers followed by Max pooling and the last 3 layers were the fully connected layers. Alex net was considered to be one of the most famous architectures at that time. It uses non saturating ReLu function which can be changed to tanh and sigmoid functions to improve the performance.
 \begin{figure}[tb]
 	\center\includegraphics[width=0.6\textwidth]{AlexNet.png}
-	\caption{AlexNet Architecture}
+	\caption{AlexNet Architecture \cite{article}}
 	\label{fig:AlexNet}
 \end{figure}
 
@@ -62,7 +62,7 @@ VGG architecture was first proposed in \cite{simonyan2014very} by Karen Simonyan
 AlexNet architecture has max pool layer after every convolutional layer, but in VGG architecture there is a difference in the placement of the Max pool layer some times after a series of 2 or 3 convolutional layers. This helps to retain the feature information before reducing the size through max pooling. towards the end of the architecture there are 3 layers of fully connected networks to classify different outputs.
 \begin{figure}[h!]
 	\center\includegraphics[width=0.6\textwidth]{vgg11.png}
-	\caption{VGG 11 Architecture}
+	\caption{VGG 11 Architecture \cite{vgg11}}
 	\label{fig:vgg11}
 \end{figure}
   
@@ -70,7 +70,7 @@ AlexNet architecture has max pool layer after every convolutional layer, but in 
 ResNet is residual neural network which is build on constructs known from pyramidal cells in the cerebral cortex. In order to achieve this property it uses skip connections over some layers. The model is implemented with double or triple skips using ReLu and batch normalisation. ResNets are built on the idea that the added more layers to the CNN architectures will not reduce the error rather just increase the computation cost. This is the reason, this model proposes to use the skip connects to reach to the lower layers faster when required by preserving the feature characteristics. The skip connections are described in the figure \ref{fig:resnetskip}
 \begin{figure}[h!]
 	\center\includegraphics[width=0.6\textwidth]{resnetskip.png}
-	\caption{ResNet Skip connections}
+	\caption{ResNet Skip connections \cite{resNet}}
 	\label{fig:resnetskip}
 \end{figure}
 
@@ -101,7 +101,7 @@ Logistic Regression is used to estimate the discrete values based on the inputs 
 
 \begin{figure}[h!]
 	\center\includegraphics[width=0.6\textwidth]{logisticregression.png}
-	\caption{Linear Regression Vs Logistic Regression}
+	\caption{Linear Regression Vs Logistic Regression \cite{logistic}}
 	\label{fig:logisticregression}
 \end{figure}
  

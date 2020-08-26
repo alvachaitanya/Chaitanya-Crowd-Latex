@@ -1,27 +1,27 @@
 \babel@toc {english}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces AlexNet Architecture}}{7}{figure.2.1}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces VGG 11 Architecture}}{7}{figure.2.2}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces ResNet Skip connections}}{8}{figure.2.3}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Linear Regression Vs Logistic Regression}}{9}{figure.2.4}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces AlexNet Architecture \cite {article}}}{8}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces VGG 11 Architecture \cite {vgg11}}}{8}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces ResNet Skip connections \cite {resNet}}}{9}{figure.2.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Linear Regression Vs Logistic Regression \cite {logistic}}}{10}{figure.2.4}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Data Flow Diagram}}{13}{figure.3.1}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Density based partitioning and crowd tracking}}{13}{figure.3.2}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Dominant motion detection results}}{13}{figure.3.3}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Multi Feature multi detector model}}{14}{figure.3.4}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Regression Based crowd counting}}{15}{figure.3.5}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Types of motion based on the product and sum of eiganvalues}}{15}{figure.3.6}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Crowd categorisation using 2 deep networks}}{16}{figure.3.7}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Types of anomalies}}{17}{figure.3.8}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Data Flow Diagram \cite {santoro2010crowd}}}{14}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Density based partitioning and crowd tracking \cite {santoro2010crowd}}}{14}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Dominant motion detection results ~\cite {cheriyadat2008detecting}}}{14}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Multi Feature multi detector model ~\cite {5374413}}}{15}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Regression Based crowd counting ~\cite {chan2008privacy}}}{16}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Types of motion based on the product and sum of eiganvalues ~\cite {solmaz2012identifying} }}{16}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Crowd categorisation using 2 deep networks ~\cite {wei2020very} }}{17}{figure.3.7}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Types of anomalies ~\cite {bansod2020crowd} }}{18}{figure.3.8}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Motion Information Image}}{18}{figure.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Block wise dominant motion Information}}{19}{figure.4.2}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Motion Information Image}}{19}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Block wise dominant motion Information}}{20}{figure.4.2}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Harris corner detection using eigenvalues}}{21}{figure.5.1}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Left : Harris Corner Detection; Centre : FAST Algorithm; Right : Shi Tomasi Corner Detection}}{23}{figure.5.2}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Lucas-Kanade Algorithm Implementation}}{27}{figure.5.3}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Harris corner detection using eigenvalues \cite {harris}}}{22}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Left : Harris Corner Detection; Centre : FAST Algorithm; Right : Shi Tomasi Corner Detection}}{24}{figure.5.2}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Lucas-Kanade Algorithm Implementation}}{28}{figure.5.3}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Model Architecture Diagram}}{28}{figure.6.1}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Model Architecture Diagram}}{29}{figure.6.1}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

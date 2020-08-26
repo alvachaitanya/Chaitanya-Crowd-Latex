@@ -8,51 +8,55 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: reference.bib
+Warning--entry type for "vgg11" isn't style-file defined
+--line 224 of file reference.bib
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in logistic
 Warning--empty journal in rosandic2019crowd
+Warning--empty journal in harris
 
 Done.
-You've used 21 entries,
+You've used 26 entries,
             4087 wiz_defined-function locations,
-            950 strings with 11223 characters,
-and the built_in function-call counts, 18545 in all, are:
-= -- 1496
-> -- 432
-< -- 186
-+ -- 252
-- -- 73
-* -- 900
-:= -- 2650
-add.period$ -- 47
-call.type$ -- 21
-change.case$ -- 21
-chr.to.int$ -- 441
-cite$ -- 22
-duplicate$ -- 1283
-empty$ -- 1458
-format.name$ -- 87
-if$ -- 4362
+            973 strings with 11887 characters,
+and the built_in function-call counts, 20997 in all, are:
+= -- 1685
+> -- 498
+< -- 193
++ -- 284
+- -- 88
+* -- 1008
+:= -- 3053
+add.period$ -- 57
+call.type$ -- 26
+change.case$ -- 26
+chr.to.int$ -- 450
+cite$ -- 29
+duplicate$ -- 1493
+empty$ -- 1669
+format.name$ -- 105
+if$ -- 4920
 int.to.chr$ -- 0
-int.to.str$ -- 21
-missing$ -- 208
-newline$ -- 86
-num.names$ -- 21
-pop$ -- 465
+int.to.str$ -- 26
+missing$ -- 249
+newline$ -- 101
+num.names$ -- 26
+pop$ -- 570
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1430
+skip$ -- 1616
 stack$ -- 0
-substring$ -- 1068
-swap$ -- 1104
-text.length$ -- 39
+substring$ -- 1100
+swap$ -- 1248
+text.length$ -- 43
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 21
-warning$ -- 1
-while$ -- 91
-width$ -- 23
-write$ -- 228
-(There was 1 warning)
+type$ -- 26
+warning$ -- 3
+while$ -- 100
+width$ -- 28
+write$ -- 269
+(There were 4 warnings)

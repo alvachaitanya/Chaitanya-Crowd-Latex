@@ -4,8 +4,10 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Table to compare different corner detection techniques}}{24}{table.5.1}%
-\contentsline {table}{\numberline {5.2}{\ignorespaces Table to compare different density based clustering algorithms}}{26}{table.5.2}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces Table to compare different corner detection techniques}}{25}{table.5.1}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Table to compare different density based clustering algorithms}}{27}{table.5.2}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {7.1}{\ignorespaces Requirements to model Implementation}}{34}{table.7.1}%
+\contentsline {table}{\numberline {7.2}{\ignorespaces Requirements for CNN and ML models Implementation}}{35}{table.7.2}%
 \addvspace {10\p@ }

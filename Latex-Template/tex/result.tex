@@ -1,9 +1,79 @@
 \chapter{Results and Discussions}
-\section{Dataset}
-Description of the dataset(s)
+
+\section{Environment}
+The whole project is implemented on 2 environments. One is to build the datasets from the video footages. Second is to train and test the CNN and ML models. 
+The environment setup for the first scenario is displayed in the table \ref{tab:scenario1}. The environment setup for the second scenario is displayed in the table  \ref{tab:scenario2}.  
+\begin{table}[h!]
+\centering
+ \begin{tabular}{| p{3cm} p{3cm} p{6cm}|} 
+ \hline
+ \textbf{Software/ Libraries} & \textbf{Version}  & \textbf{Reason} \\
+ \hline\hline
+ PyCharm & 2020.2 & IDE to develop software \\
+ \hline
+ Python & 2.7.16 & Programming language \\
+ \hline
+ opencv-python & 4.2.0.34 & Optical Flow \\
+ \hline
+ NumPy & 1.18.4 & Matrix operations \\
+ \hline
+ Scikit-learn & 0.23.1 & Density based clustering \\
+ \hline
+ Pandas & 1.0.5 & Dataframe and CSV files \\
+ \hline
+ Matplotlib & 3.2.2 & Plotting images  \\
+ \hline
+ Pillow & 7.1.2 & Converting plots to images \\
+ \hline
+\end{tabular}
+\caption{Requirements to model Implementation}
+\label{tab:scenario1}
+\end{table}
+
+\begin{table}[h!]
+\centering
+ \begin{tabular}{| p{3cm} p{3cm} p{6cm}|} 
+ \hline
+ \textbf{Software/ Libraries} & \textbf{Version}  & \textbf{Reason} \\
+ \hline\hline
+ Google Colab &  & Notebook \\
+ \hline
+ Python & 3.6 & Programming language \\
+ \hline
+ torch & 1.6.0 & CNN models \\
+ \hline
+ NumPy & 1.18.4 & Matrix operations \\
+ \hline
+ Scikit-learn & 0.23.1 & Machine Learning Models\\
+ \hline
+ Pandas & 1.0.5 & CSV files \\
+ \hline
+ Matplotlib & 3.2.2 & Plotting images  \\
+ \hline
+\end{tabular}
+\caption{Requirements for CNN and ML models Implementation}
+\label{tab:scenario2}
+\end{table}
 
 \section{Experimental setup}
-Say what is the experimental set up, parameters that were used. 
+There are 3 sets of experiments conducted while implementing and testing the model. Different tests in each set are conduction in the below format :
+
+\subsection{Experiments on Optical Flow }
+ \begin{itemize}
+	\item Test the quality and performance of Feature detection techniques.
+	\item Test the quality and performance of Density based clustering.
+	\item Test the performance by changing the Block Size.
+	\item Test the quality of images with or with out magnitude multiplication.
+\end{itemize}
+\subsection{Experiments on CNN models }
+ \begin{itemize}
+	\item Test different hyper-parameters to increase the accuracy.
+	\item Test the models with change in epochs.
+\end{itemize}
+\subsection{Experiments on ML models }
+ \begin{itemize}
+	\item Test different hyper-parameters to increase the accuracy.
+\end{itemize}
 
 \section{Results}
 Stand back and evaluate what you have achieved and how well you have met the 

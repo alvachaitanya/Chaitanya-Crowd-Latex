@@ -11,7 +11,7 @@ Video datasets can be grouped into 3 types: \textbf{Object centric}, \textbf{Loc
 This paper focuses on 2 datasets: Virat Dataset, which is location centric to understand and track the movement in the scene which intern provides the motion concentrated areas in the scene and UCF Crowd Dataset which is motion centric to track multiple objects and classify different types of motion.
 Virat dataset is clubbed with 2 scenes which are split into 61 videos and UCF dataset contains 38 videos of different motions. In both the datasets it is considered the video is captured by the fixed lens cameras or the drones capturing footages from a fixed position. 
 
-\section{Data Preparation}
+\section{Data Preparation \& Pre Processing}
 This section gives a generic view on different types of datasets used to train the models for this project and how these data sets are obtained. The project works on 2 types of datasets, Motion Information Images (MIIs)and Block wise dominant motion information. 
 \begin{wrapfigure}{l}{0.35\textwidth}
     \centering
@@ -22,9 +22,6 @@ This section gives a generic view on different types of datasets used to train t
 MIIs are the images with the motion information of the objects in every 5 frames. These images are created from the optical flow and manually assigned one label per frame. A threshold on the magnitude is created depending on the frame and this threshold is used to reduce the noise. These images are used to train the CNN model which classify the type of motion in the frame. Example of MII are shown in \ref{fig:mii}. Different colours in the image represents 12 directions the motion is pointing.
 
 On the other hand for creating the datasets for Machine learning models, every frame is blocked into 8*8 blocks. A block wise dominant motion information is created after the implementation logic which provides the dominant motion in every block. This information is labelled manually on every frame and stored in a comma separated value file. The visual representation of this information is shown in \ref{fig:blockwiseimage}. Different colours in the image represents 12 directions the motion is pointing.
-
-\section{Data Pre Processing}
-This project deals with 2 types of data, Images and processed Spacio Temporal data. Due to the unavailability of the annotated file on this context, the labels are manually created in both the cases. 
 
 \chapter{Optical Flow Implementation}
 \section{Feature Detection}
@@ -75,7 +72,7 @@ edge, corner and flat region in the image are detected with the help of eigenval
 
 \begin{figure}[tb]
 	\center\includegraphics[width=0.5\textwidth]{harris.jpg}
-	\caption{Harris corner detection using eigenvalues}
+	\caption{Harris corner detection using eigenvalues \cite{harris}}
 	\label{fig:harris}
 \end{figure}
 
@@ -148,7 +145,7 @@ All the 3 corner detection techniques implemented sequentially and verified on t
 
 \begin{table}[h!]
 \centering
- \begin{tabular}{| p{4cm} ||p{3cm} p{3cm} p{3cm} |} 
+ \begin{tabular}{|p{4cm} ||p{3cm} p{3cm} p{3cm}|} 
  \hline
  \textbf{Corner Detection} & \textbf{Harris}  & \textbf{FAST} & \textbf{Shi Tomasi} \\
  \hline\hline
@@ -356,4 +353,17 @@ As this is a classification problem, the testing part deal with finding the accu
 The images are trained on 3 types of CNN architectures, AlexNet, VGG11 and ResNet101. All these architectures have different variations in the convolution layers. It is considered helpful to check the dependency on the depth of the CNN architecture. AlexNet have 5 convolution layers with a fully connected Layer, making it the smallest architecture compared to VGG11 and ResNet101. VGG11 architecture have 8 convolution layers and is considered to be a deep network. ResNet101 is the very deep network with 3 layers of multiple convolution layers.
 
 \subsection{Machine Learning Models}
+Every 5 frames from the video footage is divided into 8*8 blocks. Each block contains different motion vectors. This motion vectors are converted into the dominant motion data as explained in the logic. Every video produces a data file with 2 dominant motions in each block. So in total there are 8*8*2 features. From the manual labelling, another column of target variables is added to the data. Finally every data file have 129 features and 2839 frames in total.
+
+This dataset is further divided into 70-30 ratio for training and testing. The null in the target variable are replaced with the random blocks and different checks are done to check the quality of the data. Last column is considered as the target variable and the dimensionality reduction is not performed as every block is considered to be equally important in classifying the motion type.
+
+The data is then trained on Logistic regression by changing the hyper parameters $solver$ and $max\_iter$. Solver parameter is the optimiser algorithm which gives the best fit to the model and the $max\_iter$ is the parameter which defines the number of iterations that the model performs for the solver to converge. The results are tracked for different sets of hyper parameters.
+
+The data is trained on support vector machine's SVC algorithm. SVC is the C-support vector classification which is used to train the multi-nominal classification problems. SVC is trained by changing the hyper parameter kernel. Kernel is the parameter which specifies the kernel type to be used in the algorithm.
+
+The data is then trained on KNN model. The hyper parameters like n-neighbours, algorithm and leaf size are altered and checked with different combinations. This model is followed by training the data on Gaussian Naive Bayes algorithm, perceptron and Stochastic Gradient descent algorithms. The training accuracy and the testing accuracy of the models is calculated and tracked.
+
+Finally the data is trained on Decision tress and Random forest algorithms with different hyper parameter tuning. The parameters like criterion, max\_depth and min\_samples\_split were altered for the best results in the decision tree algorithm and random forest algorithms. 
+
+
 

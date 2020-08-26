@@ -21,6 +21,23 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{article}
+J.~Llamas, P.~Lerones, R.~Medina, E.~Zalama, and J.~Gómez-García-Bermejo,
+  ``Classification of architectural heritage images using deep learning
+  techniques,'' \emph{Applied Sciences}, vol.~7, p. 992, 09 2017.
+
+\bibitem{vgg11}
+S.~P. Singh and M.~Jaggi, ``Model fusion via optimal transport,'' 10 2019.
+
+\bibitem{resNet}
+W.~Zhang, H.~Quan, O.~Gandhi, R.~Rajagopal, C.-W. Tan, and D.~Srinivasan,
+  ``Improving probabilistic load forecasting using quantile regression nn with
+  skip connections,'' \emph{IEEE Transactions on Smart Grid}, vol.~PP, pp.
+  1--1, 05 2020.
+
+\bibitem{logistic}
+A.~Navlani, ``Understanding logistic regression in python,'' 12 2019.
+
 \bibitem{sreenu2019intelligent}
 G.~Sreenu and M.~S. Durai, ``Intelligent video surveillance: a review through
   deep learning techniques for crowd analysis,'' \emph{Journal of Big Data},
@@ -117,6 +134,9 @@ S.~D. Bansod and A.~V. Nandedkar, ``Crowd anomaly detection and localization
 C.~G. Harris, M.~Stephens \emph{et~al.}, ``A combined corner and edge
   detector.'' in \emph{Alvey vision conference}, vol.~15, no.~50.\hskip 1em
   plus 0.5em minus 0.4em\relax Citeseer, 1988, pp. 10--5244.
+
+\bibitem{harris}
+A.~K.~R. Alexander~Mordvintsev, ``Harris corner detection,'' 2013.
 
 \bibitem{shi1994good}
 J.~Shi \emph{et~al.}, ``Good features to track,'' in \emph{1994 Proceedings of

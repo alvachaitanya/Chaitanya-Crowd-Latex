@@ -9,7 +9,7 @@ of tracking the crowd motion in the videos. As shown in the figure \ref{fig:opti
 process of crowd tracking is done in 4 steps. 
 \begin{figure}[tb]
 	\center\includegraphics[width=0.6\textwidth]{Opticalflowdataflow.png}
-	\caption{Data Flow Diagram}
+	\caption{Data Flow Diagram \cite{santoro2010crowd}}
 	\label{fig:opticaldataflow}
 \end{figure}
 KLT feature tracker is used to do the optical flow estimation.KLT feature tracker is the combination of Shi-
@@ -28,7 +28,7 @@ are shown in the figure \ref{fig:opticalflowresult}. The person behind the crowd
 group and the tracking is done multiple times to get the flow.
 \begin{figure}[tb]
 	\center\includegraphics[width=0.6\textwidth]{opticalflowresult.png}
-	\caption{Density based partitioning and crowd tracking}
+	\caption{Density based partitioning and crowd tracking \cite{santoro2010crowd}}
 	\label{fig:opticalflowresult}
 \end{figure}
 
@@ -39,7 +39,7 @@ interesting points in multiple frames, the trajectory is captured. New feature p
 frames to handle the load. The new feature points which are close to the old points are discarded. 
 \begin{figure}[tb]
 	\center\includegraphics[width=0.6\textwidth]{dominantresult.png}
-	\caption{Dominant motion detection results}
+	\caption{Dominant motion detection results ~\cite{cheriyadat2008detecting}}
 	\label{fig:dominantresult}
 \end{figure}
 By getting the trajectories of all the points, a new clustering framework Longest Common Subsequences 
@@ -73,13 +73,13 @@ on the each direction is estimated using the Gaussian process. This model is exp
 
 \begin{figure}[tb]
 	\center\includegraphics[width=0.6\textwidth]{Mfeaturemdetector.png}
-	\caption{Multi Feature multi detector model}
+	\caption{Multi Feature multi detector model ~\cite{5374413}}
 	\label{fig:rmfmdcc}
 \end{figure}
 
 \begin{figure}[tb]
 	\center\includegraphics[width=0.6\textwidth]{RegressionCC.png}
-	\caption{Regression Based crowd counting}
+	\caption{Regression Based crowd counting ~\cite{chan2008privacy}}
 	\label{fig:regcc}
 \end{figure}
 
@@ -95,7 +95,7 @@ the situation.
 
 \begin{figure}[tb]
 	\center\includegraphics[width=0.6\textwidth]{stability.png}
-	\caption{Types of motion based on the product and sum of eiganvalues}
+	\caption{Types of motion based on the product and sum of eiganvalues ~\cite{solmaz2012identifying} }
 	\label{fig:stability}
 \end{figure}
 
@@ -108,7 +108,7 @@ matrix is used to classify the motion as shown in the figure \ref{fig:stability}
 
 \begin{figure}[tb]
 	\center\includegraphics[width=0.6\textwidth]{deepnets.jpg}
-	\caption{Crowd categorisation using 2 deep networks}
+	\caption{Crowd categorisation using 2 deep networks ~\cite{wei2020very} }
 	\label{fig:2deep}
 \end{figure}
 
@@ -124,13 +124,14 @@ map and key frame. The results and the implementation of this model are shown in
 \section{Anomaly detection in the crowd motion}
 Another very interesting and key papers published are focused on the Anomaly detection. This type of papers focus on identifying unexpected behaviour in the frame. For example the paper ~\cite{bansod2020crowd} focuses on 3 types of anomalies, namely: Point Anomaly which points a single object in the frame. This can be an unexpected motion or sudden change in the magnitude of single object. The second type id the collective anomaly, where most of the objects in the frame experience sudden drift in the direction and velocity. This type of anomaly is usually found in the riots, explosions etc. The third type of anomaly is contextual anomaly which can be unexpected shaped object in the frame etc. The figure \ref{fig:anomaly} explains the different types of the anomalies clearly.
 
-This paper implements the model with the footages from the stable surveillance cameras and techniques like background reduction. It also proposes a new way of gathering the features like direction, change in the points, distance etc. These features are further classified using k-means clustering and distance calculation to predict the motion to be expected or unexpected.
-
-\begin{figure}[tb]
+\begin{figure}[h!]
 	\center\includegraphics[width=0.6\textwidth]{anomaly.jpg}
-	\caption{Types of anomalies}
+	\caption{Types of anomalies ~\cite{bansod2020crowd} }
 	\label{fig:anomaly}
 \end{figure}
+
+This paper implements the model with the footages from the stable surveillance cameras and techniques like background reduction. It also proposes a new way of gathering the features like direction, change in the points, distance etc. These features are further classified using k-means clustering and distance calculation to predict the motion to be expected or unexpected.
+
 
 
  
